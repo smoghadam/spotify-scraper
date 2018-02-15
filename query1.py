@@ -10,8 +10,8 @@ import spotipy
 import pprint
 
 # Access tokens
-client_id = "0d95a04638084b27a789a328a8b96362"
-client_secret = "34145c4dfee449bd957579189f1cc8ed"
+client_id = "[client ID]"
+client_secret = "[client secret]"
 
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
